@@ -2,7 +2,6 @@
 $voornaam = "Senna";
 $achternaam = "Bakker";
 $studentnummer = "97132806";
-$klascode = "a";
 ?>
 
 <!DOCTYPE html>

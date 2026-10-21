@@ -10,7 +10,6 @@ $studentnummer = "97132806";
     <?php
     echo $voornaam . " " . $achternaam . "<br>";
     echo $studentnummer . "<br>";
-    echo $klascode;
     ?>
 </body>
 </html>

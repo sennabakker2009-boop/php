@@ -1,5 +1,17 @@
 <?php
-echo id=tekst1 "Senna bakker";
-echo id=tekst2 "97132806";
-echo id=tekst3 "a";
+$voornaam = "Senna";
+$achternaam = "Bakker";
+$studentnummer = "97132806";
+$klascode = "a";
 ?>
+
+<!DOCTYPE html>
+<html lang="nl">
+<body>
+    <?php
+    echo $voornaam . " " . $achternaam . "<br>";
+    echo $studentnummer . "<br>";
+    echo $klascode;
+    ?>
+</body>
+</html>

@@ -42,7 +42,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button type="submit">Bereken</button>
     </form>
 
-<?php if ($resultaat !== ''): ?>
-    <p><?php echo $resultaat; ?></p>
-<?php endif; ?>
+<?php
+if ($resultaat !== '') {
+    echo '<p>' . htmlspecialchars($resultaat, ENT_QUOTES, 'UTF-8') . '</p>';
+}
+?>
 </html>
